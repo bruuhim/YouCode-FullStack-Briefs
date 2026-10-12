@@ -2,26 +2,14 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   font-family: "Inter", sans-serif;
   color: #102a43;
-}
-
-.mobile {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .mobile {
-    display: inline-block;
-    background-color: white;
-  }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 header {
@@ -30,8 +18,27 @@ header {
   justify-content: space-between;
   padding: 20px 104px;
   margin-left: 20px;
-  border-bottom: 1px solid;
-  border-color: #dce5ec;
+  border-bottom: 1px solid #dce5ec;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    padding: 16px;
+    margin: 0 auto;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
 }
 
 header a {
@@ -54,7 +61,6 @@ header img {
 .logo span {
   font-weight: 700;
   background-color: yellow;
-  
 }
 
 .nav {
