@@ -1,0 +1,317 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #0a1222;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 52px;
+  margin-right: 500px;
+  font-weight: 800;
+  font-size: 29px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.logotxt {
+  text-decoration: none;
+  color: #0a1222;
+}
+
+.boxes {
+  font-weight: 400;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 60px;
+  height: 12px;
+}
+.b1 {
+  text-decoration: none;
+  color: #0a1222;
+  white-space: nowrap;
+}
+
+.inscr {
+  margin-left: auto;
+  margin-right: 50px;
+  background-color: #034bff;
+  border-radius: 10px;
+  padding: 1px 48px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-inscription {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.iconsearch {
+  margin-left: 450px;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.hero {
+  background-color: #034bff;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.heroimg {
+  width: 110%;
+}
+
+.heroimg img {
+  height: 100%;
+  width: 100%;
+}
+
+.herotxt {
+  background-color: #08111d;
+  width: 100%;
+}
+
+.titlhero {
+  font-weight: 900;
+  font-size: 120px;
+  margin-left: 100px;
+  line-height: 120%;
+  margin-bottom: 0;
+  position: relative;
+  top: 10px;
+}
+
+.thb {
+  color: #034bff;
+  position: relative;
+  bottom: 20px;
+}
+
+.thg {
+  color: #c7f64a;
+  margin-left: 125px;
+  width: 65px;
+  height: 79px;
+  margin-top: 100px;
+  position: relative;
+  bottom: 25px;
+}
+
+.th2 {
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 100px;
+  position: relative;
+  bottom: 45px;
+}
+
+.herop {
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 100px;
+  position: relative;
+  bottom: 50px;
+}
+
+.herocam {
+  background-color: #034bff;
+  text-decoration: none;
+  margin-left: 100px;
+  border-radius: 6px;
+  padding: 17px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  bottom: 40px;
+}
+
+.herobott {
+  text-decoration: none;
+  margin-left: 30px;
+  border-style: solid;
+  border-width: 2px 2px;
+  padding: 16px 26px;
+  border-color: #8eabff;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0a1222;
+  position: relative;
+  bottom: 40px;
+}
+
+.alph1 {
+  margin-left: 100px;
+  background-color: #b8c9cf;
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 100%;
+  color: #0a1222;
+}
+
+.alph2 {
+  background-color: #d7c3b6;
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 100%;
+  color: #0a1222;
+}
+
+.alph3 {
+  background-color: #b8c9cf;
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 100%;
+  color: #0a1222;
+}
+
+.alph4 {
+  background-color: #d7c3b6;
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 25px;
+  border-radius: 100%;
+  color: #0a1222;
+}
+
+.herocom {
+  font-weight: 400;
+  font-size: 12px;
+  position: relative;
+  bottom: 42px;
+  left: 300px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  padding-bottom: 50px;
+}
+
+.s1 {
+  width: 25%;
+}
+.s1 span {
+  font-size: 70px;
+  color: #034bff;
+  position: relative;
+  top: 25px;
+  margin-left: 50px;
+}
+
+.s1 strong {
+  font-weight: 800;
+  font-size: 34px;
+  position: relative;
+  left: 10px;
+}
+
+.s1 small {
+  color: #47526a;
+  font-weight: 400;
+  font-size: 12px;
+  position: relative;
+  top: 20px;
+  right: 60px;
+}
+
+.campus {
+  background-color: #f4f7fc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.campus img {
+  width: 202px;
+}
+
+.camptxt {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.campimg {
+  width: 50%;
+}
+
+.campb {
+  font-weight: 400;
+  font-size: 16px;
+  color: #034bff;
+}
+
+.campbott {
+  background-color: #034bff;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 17px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.camptxt h2 {
+  font-weight: 800;
+  font-size: 36px;
+  position: relative;
+  bottom: 10px;
+}
+
+.camptxt p {
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  bottom: 25px;
+}
+
+.campimg span {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #08111d;
+  border-radius: 10px;
+  padding: 17px 30px;
+  position: relative;
+  bottom: 25px;
+}
+
+.ci1 {
+  position: relative;
+  right: 210px;
+  top: 50px;
+}
+
+.ci1x {
+  position: relative;
+  top: 30px;
+  width: 202px;
+  height: 185px;
+  transform: rotate(-5deg);
+  border-radius: 10px;
+}
