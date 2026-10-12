@@ -1,0 +1,37 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #102a43;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 104px;
+  margin-left: 20px;
+  border-bottom: 1px solid;
+  border-color: #dce5ec;
+}
+
+header a {
+  text-decoration: none;
+  color: #102a43;
+}
+
+header img {
+  background-color: #0866c2;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  margin-left: 6px;
+}
+
+.logoblu {
+  color: #0866c2;
+}
+
+.logo span {
+  font-weight: 700;
+  background-color: yellow;
+  
+}
