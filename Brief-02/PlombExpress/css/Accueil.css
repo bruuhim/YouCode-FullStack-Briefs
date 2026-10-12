@@ -1,6 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: "Inter", sans-serif;
   color: #102a43;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    display: inline-block;
+    background-color: white;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 header {
@@ -34,4 +55,8 @@ header img {
   font-weight: 700;
   background-color: yellow;
   
+}
+
+.nav {
+  align-items: center;
 }
