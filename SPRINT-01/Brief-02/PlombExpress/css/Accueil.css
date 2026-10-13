@@ -27,6 +27,7 @@ header {
 
 @media (max-width: 767px) {
   header {
+    display: flex;
     flex-direction: column;
     padding: 16px;
     margin: 0 auto;
@@ -38,6 +39,28 @@ header {
 
   .mobile {
     display: block;
+  }
+
+  .btnh {
+    width: 100%;
+  }
+
+  .btnh button {
+    border: none;
+    width: 100%;
+    background-color: #ff6418;
+    padding: 15px 20px 15px;
+    gap: 12px;
+    border-radius: 10px;
+    width: 335px;
+    height: 44px;
+  }
+
+  .btnh a {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
   }
 }
 
