@@ -76,7 +76,7 @@ nav {
   padding: 0 20px;
   border: none;
   border-radius: 10px;
-  background-color: #ff6418;
+  background-color: #c75000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,6 +87,9 @@ nav {
   color: white;
   font-size: 14px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
 }
 
 /* img[src$=".svg"]:not(.ncc) {
@@ -96,11 +99,16 @@ nav {
 
 .hero {
   display: flex;
-  padding: 1rem 2.5rem;
+  padding: 2.5rem 2.5rem 1rem;
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
   background-color: #f3f7fa;
+}
+
+.hero h1,
+.hero p {
+  margin: 0;
 }
 
 .hero > div:nth-child(1) {
@@ -160,7 +168,7 @@ nav {
   padding-right: 24px;
   padding-left: 24px;
   border-radius: 10px;
-  background: #ff6418;
+  background: #c75000;
   border: 1px solid #ffffff;
   cursor: pointer;
   display: flex;
@@ -179,6 +187,9 @@ nav {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
 }
 
 .hero > div:nth-child(3) button:nth-child(2) a {
@@ -329,11 +340,12 @@ nav {
 
 .faire button a {
   text-decoration: none;
-  width: 161px;
-  height: 18px;
   font-weight: 600;
   font-size: 15px;
   color: #102a43;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
 }
 
 /* DESKTOP */
@@ -367,6 +379,7 @@ nav {
   .nav-links a {
     font-size: 15px;
     font-weight: 500;
+    padding: 12px 0;
   }
 
   .menu {

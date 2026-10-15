@@ -1,0 +1,32 @@
+/* ACCESSIBILITY */
+
+.btnh button,
+.hero > div:nth-child(3) button,
+.urgence button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnh a,
+.hero > div:nth-child(3) button a,
+.urgence button a {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+}
+
+.btnh button,
+.hero > div:nth-child(3) button:nth-child(1) {
+  background-color: #c75000;
+}
+
+.urgence {
+  background-color: #c75000;
+}
+
+@media (min-width: 768px) {
+  .nav-links a {
+    padding: 12px 0;
+  }
+}
