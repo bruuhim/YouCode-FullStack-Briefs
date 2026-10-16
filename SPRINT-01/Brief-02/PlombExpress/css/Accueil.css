@@ -234,6 +234,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
+  padding-bottom: 15%;
 }
 
 .faire > div:nth-child(1) span {
@@ -346,6 +347,58 @@ nav {
   display: flex;
   align-items: center;
   align-self: stretch;
+}
+
+.choisir {
+  display: flex;
+  padding: 1rem 2.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  background-color: #f3f7fa;
+  padding-top: 15%;
+}
+
+.choisir > div:first-child span {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 1.8px;
+  color: #0866c2;
+}
+
+.choisir > div:first-child h2 {
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -1.2px;
+}
+
+.choisir > div:first-child p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 165%;
+  color: #486176;
+}
+
+.choisir > div:nth-child(2) img {
+  border-radius: 24px;
+}
+
+.choisir > div:nth-child(3) img {
+  width: 22px;
+  height: 22px;
+}
+
+.choisir > div:nth-child(3) span {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.choisir > div:nth-child(3) p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 165%;
+  color: #486176;
 }
 
 /* DESKTOP */
